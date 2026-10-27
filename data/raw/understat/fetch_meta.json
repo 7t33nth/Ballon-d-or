@@ -1,0 +1,31 @@
+{
+  "fetched_at_utc": "2026-10-27T14:31:05+00:00",
+  "season": "2025/26",
+  "sources": {
+    "league_data": [
+      "https://understat.com/getLeagueData/EPL/2025",
+      "https://understat.com/getLeagueData/La%20liga/2025",
+      "https://understat.com/getLeagueData/Bundesliga/2025",
+      "https://understat.com/getLeagueData/Serie%20A/2025",
+      "https://understat.com/getLeagueData/Ligue%201/2025"
+    ],
+    "player_data": {
+      "Harry Kane": "https://understat.com/getPlayerData/647",
+      "Kylian Mbappe": "https://understat.com/getPlayerData/3423"
+    }
+  },
+  "pool_rules": {
+    "pool_goals": "топ-10 форвардов топ-5 лиг по голам, без Кейна и Мбаппе; тай-брейк — меньше минут",
+    "pool_ga90": "топ-10 форвардов топ-5 лиг по (голы+ассисты)/90 при минимуме 1500 минут"
+  },
+  "players": {
+    "Harry Kane": {
+      "understat_id": "647",
+      "file": "shots_harry_kane.csv"
+    },
+    "Kylian Mbappe": {
+      "understat_id": "3423",
+      "file": "shots_kylian_mbappe.csv"
+    }
+  }
+}
