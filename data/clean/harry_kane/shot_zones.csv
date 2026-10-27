@@ -1,0 +1,4 @@
+Player,ShotZone,Shots,Goals,KeyPasses,Assists,xG,xA,xG_per_shot,xA_per_keypass
+Harry Kane,Out of box,24,6,12,0,1.02,0.55,0.04,0.05
+Harry Kane,Penalty area,75,23,26,5,20.46,6.64,0.27,0.26
+Harry Kane,Six-yard box,20,7,2,0,8.1,0.21,0.4,0.11

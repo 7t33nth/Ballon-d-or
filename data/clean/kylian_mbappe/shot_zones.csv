@@ -1,0 +1,4 @@
+Player,ShotZone,Shots,Goals,KeyPasses,Assists,xG,xA,xG_per_shot,xA_per_keypass
+Kylian Mbappe,Out of box,42,6,23,0,2.16,0.69,0.05,0.03
+Kylian Mbappe,Penalty area,98,18,38,2,21.74,3.92,0.22,0.1
+Kylian Mbappe,Six-yard box,6,1,4,3,1.89,2.63,0.32,0.66

@@ -1,0 +1,6 @@
+Player,Situation,Shots,Goals,KeyPasses,Assists,xG,xA,xG_p90,xA_p90,xG_per_shot,xA_per_keypass
+Harry Kane,Open play,88,21,37,4,18.2,6.74,0.69,0.25,0.21,0.18
+Harry Kane,From corner,13,4,2,0,2.63,0.1,0.1,0.0,0.2,0.05
+Harry Kane,Penalty,11,10,0,0,8.34,0.0,0.31,0.0,0.76,0.0
+Harry Kane,Direct Freekick,4,1,0,0,0.32,0.0,0.01,0.0,0.08,0.0
+Harry Kane,Set piece,3,0,1,1,0.1,0.57,0.0,0.02,0.03,0.57
