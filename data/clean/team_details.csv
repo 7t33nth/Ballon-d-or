@@ -1,0 +1,17 @@
+﻿player,type,item,points,counted,note
+Harry Kane,Трофей,Bundesliga,3.0,True,Winner
+Harry Kane,Трофей,German Cup,2.0,True,Winner
+Harry Kane,Трофей,DFL-Supercup,1.0,True,Winner
+Harry Kane,Трофей,Champions League,0.0,False,No trophy
+Harry Kane,Трофей,World Cup,0.0,False,Semifinal
+Harry Kane,Награда,Best player Bundesliga,2.0,True,Winner
+Harry Kane,Награда,Top scorer Bundesliga,2.0,True,Winner
+Harry Kane,Награда,European Golden Shoe,3.0,True,Winner
+Kylian Mbappe,Трофей,La Liga,0.0,False,No trophy
+Kylian Mbappe,Трофей,Champions League,0.0,False,No trophy
+Kylian Mbappe,Трофей,Domestic Cup,0.0,False,No trophy
+Kylian Mbappe,Трофей,World Cup,0.0,False,Semifinal
+Kylian Mbappe,Награда,Golden Boot World Cup,3.0,True,Winner
+Kylian Mbappe,Награда,All-time top scorer France national team,0.0,False,карьерный рекорд — не учитываем
+Kylian Mbappe,Награда,Golden Boot Champions League,3.0,True,Winner
+Kylian Mbappe,Награда,Top scorer La Liga,2.0,True,Winner
