@@ -13,8 +13,13 @@ r"""
 5. Сохраняет чистые таблицы в data/clean/<игрок>/ и обновляет data/clean/summary_all.csv.
 """
 import argparse
+import sys
 from pathlib import Path
 import pandas as pd
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 EXPECTED = ["position", "shotTypes", "shotZones", "situation"]
 # Как называется первая (категориальная) колонка в каждой таблице после очистки
 CATEGORY_NAME = {
@@ -53,6 +58,9 @@ def read_table(path: Path) -> tuple[str, pd.DataFrame]:
 def load_player(folder: Path) -> dict[str, pd.DataFrame]:
     tables: dict[str, pd.DataFrame] = {}
     for path in sorted(folder.glob("*.csv")):
+        # В той же папке лежат выгрузки FBref — их обрабатывает metrics.py.
+        if "fbref" in path.name.lower():
+            continue
         try:
             key, df = read_table(path)
         except ValueError as err:
